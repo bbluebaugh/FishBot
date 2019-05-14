@@ -1,0 +1,42 @@
+/*
+  switch(trigger){
+    case 1:
+      tcs.getRawData(&r, &g, &b, &c);
+      lux = tcs.calculateLux(r, g, b);
+      if(lux > 500){
+        trigger = 0;
+      }
+      break;
+    case 2:
+      tcs2.getRawData(&r2, &g2, &b2, &c2);
+      lux2 = tcs2.calculateLux(r2, g2, b2);
+      if(lux2 > 500){
+        trigger = 0;
+      }
+      break;
+    case 3:
+      tcs3.getRawData(&r3, &g3, &b3, &c3);
+      lux3 = tcs3.calculateLux(r3, g3, b3);
+      if(lux3 > 500){
+        trigger = 0;
+      }
+      break;
+    case 4:
+      tcs4.getRawData(&r4, &g4, &b4, &c4);
+      lux4 = tcs4.calculateLux(r4, g4, b4);
+      if(lux4 > 500){
+        trigger = 0;
+      }
+      break;
+    case 0:
+      tcs.getRawData(&r, &g, &b, &c);
+      tcs2.getRawData(&r2, &g2, &b2, &c2);
+      tcs3.getRawData(&r3, &g3, &b3, &c3);
+      tcs4.getRawData(&r4, &g4, &b4, &c4);
+      lux = tcs.calculateLux(r, g, b);
+      lux2 = tcs2.calculateLux(r2, g2, b2);
+      lux3 = tcs3.calculateLux(r3, g3, b3);
+      lux4 = tcs4.calculateLux(r4, g4, b4);
+      break;
+  }
+  */
